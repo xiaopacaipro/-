@@ -1,0 +1,10 @@
+baseURL = 'https://github.com/xiaopacaipro/nwesite.git/'
+languageCode = 'en-us'
+publishDir = "docs"
+title = '看见金城兰州'
+theme = 'ananke'
+[markup]
+defaultMarkdownHandler = "goldmark"
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
